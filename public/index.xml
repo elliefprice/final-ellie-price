@@ -15,11 +15,25 @@
       <description>Another programming article.</description>
     </item>
     <item>
+      <title>Article Three</title>
+      <link>https://example.org/articles/article-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/articles/article-3/</guid>
+      <description>Article On Enhancement</description>
+    </item>
+    <item>
       <title>Article Two</title>
       <link>https://example.org/articles/articles-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/articles/articles-2/</guid>
       <description>Another programming article.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/articles/article-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/articles/article-4/</guid>
+      <description></description>
     </item>
     <item>
       <title>About Me</title>
