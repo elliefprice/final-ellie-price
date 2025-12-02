@@ -1,6 +1,6 @@
 ---
 title: "Ellie's Site"
-description: "Website Warm Up Assignment"
+description: "Website Final Project Assignemnt"
 ---
 
-This is my home page for the Website Warmup Assignmet!
+This is my home page for the Final Project Assignmet!
