@@ -12,8 +12,9 @@
  
 
 
-      <title>My New Hugo Site - </title>
-<script type="application/ld+json">
+      <title>Article Two - </title>
+
+  <meta name="description" content="Another programming article."><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -49,7 +50,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/example.org\/articles\/article-4\/",
-          "name": ""
+          "name": "Article two"
         }
     }]
 }
@@ -60,10 +61,10 @@
   "author": {
     "name" : ""
   },
-  "headline": "",
-  "description" : "",
+  "headline": "Article Two",
+  "description" : "Another programming article.",
   "inLanguage" : "en",
-  "wordCount":  0 ,
+  "wordCount":  605 ,
   "datePublished" : "0001-01-01T00:00:00\u002b00:00",
   "dateModified" : "0001-01-01T00:00:00\u002b00:00",
   "image" : "https:\/\/example.org\/",
@@ -83,12 +84,14 @@
 </script>
 
 
-<meta property="og:title" content="My New Hugo Site" />
+<meta property="og:title" content="Article Two" />
+<meta property="og:description" content="Another programming article.">
 <meta property="og:url" content="https://example.org/articles/article-4/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="My New Hugo Site" />
 
-  <meta name="twitter:title" content="My New Hugo Site" />
+  <meta name="twitter:title" content="Article Two" />
+  <meta name="twitter:description" content="Another programming article.">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.151.2">
   <link rel="alternate" href="https://example.org/index.xml" type="application/rss+xml" title="My New Hugo Site"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
@@ -212,7 +215,31 @@
 
 
 
-  <div class="intro-header"></div>
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>Article Two</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
 
 
     
@@ -220,7 +247,67 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
+        <h2 id="article-two">Article Two:</h2>
+<h2 id="introduction-to-the-problem">Introduction to the Problem:</h2>
+<p>This homework problem is from chapter two. It asks to write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a &ldquo;#&rdquo; character.
+The characters should form a chessboard.</p>
+<p>Passing this string to console.log should show something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> 
+</span></span><span style="display:flex;"><span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> 
+</span></span><span style="display:flex;"><span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> 
+</span></span><span style="display:flex;"><span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">#</span>
+</span></span></code></pre></div><p>It also asks that when you have a program that generates this pattern, define a binding size = 8 and change
+the program so that it works for any size, outputting a grid of the given width and height.</p>
+<h2 id="breaking-down-the-solution">Breaking Down the Solution:</h2>
+<p>The first line of the solution creates a constant value called size. It will stay 8 the entire time and control how tall and wide the grid will be.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">size</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>;
+</span></span></code></pre></div><p>The second line of code makes an empty string called board. This is what will build the chessboard pattern by adding characters to this string.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">board</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span></code></pre></div><p>The next chunk of code is a for loop. This for loop will help to create the rows in the pattern. It follows the for loop steps of initialization, check, and update.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">y</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">size</span>; <span style="color:#a6e22e">y</span><span style="color:#f92672">++</span>)
+</span></span></code></pre></div><p>Initialization (let y = 0): A binding y is created and initialized to 0. This binding tracks the current row number.</p>
+<p>Check (y &lt; size): The loop continues running as long as the current row index (y) is less than the defined size (8).</p>
+<p>Update (y++): After the body of the loop runs, the y binding is incremented by 1.</p>
+<p>The next line of code is another for loop that helps to create the columns in the pattern</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">x</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">size</span>; <span style="color:#a6e22e">x</span><span style="color:#f92672">++</span>)
+</span></span></code></pre></div><p>This line runs like the previous for loop, just with the columns instead. It follows the for loop steps of initialization, check, and update.</p>
+<p>It starts x at 0, keeps going while x is less than size, and adds 1 to x each time. The variable x keeps track of which column you&rsquo;re on.</p>
+<p>The next line of code is an &ldquo;if, else&rdquo; conditional statement,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ((<span style="color:#a6e22e">x</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">y</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;#&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This &ldquo;if, else&rdquo; conditional statement helps the pattern to choose a &ldquo;#&rdquo; character or a space to create the checkerboard pattern.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>(<span style="color:#a6e22e">x</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">y</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> 
+</span></span></code></pre></div><p>checks whether the sum of the row and column numbers is even. If it’s even, it adds a space &quot; &ldquo;. If it’s odd, it add a &ldquo;#&rdquo;. This creates the alternating pattern needed for a chessboard.</p>
+<p>After the inner loop and &ldquo;if, else&rdquo; statement finishes a full row, the next line of code adds a newline character so the next row starts on a new line.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;\n&#34;</span>;
+</span></span></code></pre></div><p>The final line of code prints the checkerboard pattern to the console.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">board</span>);
+</span></span></code></pre></div><h2 id="full-solution">Full Solution</h2>
+<p>The full solution looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">size</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">board</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">y</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">size</span>; <span style="color:#a6e22e">y</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">x</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">size</span>; <span style="color:#a6e22e">x</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ((<span style="color:#a6e22e">x</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">y</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;#&#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">board</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;\n&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">board</span>);
+</span></span></code></pre></div><p>This solution was found through Chapter Two in Eloquent JavaScript by Homer White and explinations/help given during class lectures.</p>
+
 
         
 
@@ -230,15 +317,6 @@
       </article>
 
       
-        <ul class="pager blog-pager">
-          
-          
-            <li class="next">
-              <a href="https://example.org/articles/articles-2/" data-toggle="tooltip" data-placement="top" title="Article Two">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
-      
 
 
       
@@ -247,7 +325,15 @@
   </div>
 </div>
 
-      <footer>
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  <footer>
   <div class="container">
     
     <div class="row">

@@ -14,7 +14,7 @@
 
       <title>Article One - </title>
 
-  <meta name="description" content="Another programming article."><script type="application/ld+json">
+  <meta name="description" content="Article Summary"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -62,9 +62,9 @@
     "name" : ""
   },
   "headline": "Article One",
-  "description" : "Another programming article.",
+  "description" : "Article Summary",
   "inLanguage" : "en",
-  "wordCount":  277 ,
+  "wordCount":  373 ,
   "datePublished" : "0001-01-01T00:00:00\u002b00:00",
   "dateModified" : "0001-01-01T00:00:00\u002b00:00",
   "image" : "https:\/\/example.org\/",
@@ -85,13 +85,13 @@
 
 
 <meta property="og:title" content="Article One" />
-<meta property="og:description" content="Another programming article.">
+<meta property="og:description" content="Article Summary">
 <meta property="og:url" content="https://example.org/articles/article-1/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="My New Hugo Site" />
 
   <meta name="twitter:title" content="Article One" />
-  <meta name="twitter:description" content="Another programming article.">
+  <meta name="twitter:description" content="Article Summary">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.151.2">
   <link rel="alternate" href="https://example.org/index.xml" type="application/rss+xml" title="My New Hugo Site"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
@@ -247,45 +247,11 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h2 id="article-one">Article One:</h2>
-<h2 id="introduction-to-the-problem">Introduction to the Problem</h2>
-<p>This homework problem is from chapter two. The problem asks to write a loop that makes seven calls to console.log to output the following triangle:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">##</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">###</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">####</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#####</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">######</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#######</span>
-</span></span></code></pre></div><h2 id="breaking-down-the-solution">Breaking Down the Solution</h2>
-<p>The first line of code to the solution creates a binding named &ldquo;triangle&rdquo; (let) and assigns the value of an empy string to it (&quot; &ldquo;).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">triangle</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span></code></pre></div><p>The second line of code creates a for loop. This for loop has three main parts:  initialization, check, and update.</p>
-<p>Initiation:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">triangle</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#&#34;</span>
-</span></span></code></pre></div><p>This creates an inner binding (also named triangle). This new variabe is created inside the loop, and it starts out as the “#” symbol (a single character).</p>
-<p>Check:</p>
-<p>This code line decides whether the loop should keep going. The loop continues as long as the triangle string has 7 or fewer characters, while the &ldquo;triangle.length&rdquo; property tells how many characters are in the string (7).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">triangle</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">7</span>
-</span></span></code></pre></div><p>Update:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">triangle</span>)
-</span></span></code></pre></div><p>This code line prints the current triangle string.</p>
-<p>Then the loop updates:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">triangle</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;#&#34;</span>
-</span></span></code></pre></div><p>This code line adds one more &ldquo;#&rdquo; to the end of the triangle string.</p>
-<p>The code builds a triangle pattern by printing a string that gets one &ldquo;#&rdquo; longer each time the loop runs, up to seven times. while the last line prints the result to the console.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">triangle</span>)
-</span></span></code></pre></div><h2 id="full-solution">Full Solution</h2>
-<p>The full solution looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">triangle</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">triangle</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">triangle</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">7</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">triangle</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;#&#34;</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">triangle</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">triangle</span>)
-</span></span></code></pre></div><p>This solution was found through Chapter Two in Eloquent JavaScript by Homer White and explinations/help given during class lectures.</p>
+        <h2 id="sperm-adaptations-in-deer-mice">Sperm Adaptations in Deer Mice</h2>
+<p>Sperm have many adaptations to increase their likelihood of fertilizing an egg. Scientists have found that one of these adaptations is cooperation, and that competition drives cooperation. This is present in a study of deer mice (Peromyscus maculatus). By forming cooperative groups (motile aggregations), sperm are able to increase their swimming velocity.
+Scientists looked at two related species of deer mice with different mating habits. The Promiscuous Mouse (Peromyscus maniculatus), where females in this species mate with many different males. Resulting in  intense sperm competition. As well as The Monogamous Mouse (Peromyscus polionotus), where females in this species stick with one partner, so there is little to no sperm competition. In the promiscuous P. maniculatus, sperm were significantly more likely to aggregate with sperm from the same male than with sperm from an unrelated male of the same species (Fisher and Hoekstra, 2010). While sperm from the monogamous P. polionotus (which experiences little to no sperm competition) aggregated with sperm from unrelated males of their own species (Fisher and Hoekstra, 2010).
+Fisher and Hoekstra’s study also demonstrates that sperm can discriminate based on genetic relatedness. An experiment consisted of live sperm from male mice and its sister species to determine if the sperm are able to identify and group with related cells. When sperm from P. maniculatus and its sister species P. polionotus were mixed, they preferred to form groups with sperm from their own species (Fisher and Hoekstra, 2010). This was observed again with sibling sperm from P. maniculatus. When sperm from full-siblings were mixed, sperm still grouped with those from the same male rather than with those from a brother. However, when sperm from two different monogamous males were mixed, they formed groups with any other sperm from their species.
+In essence, the study reveals that the formation of sperm groups is shaped by sexual selection. This selection favors sperm that can identify and help their relatives to maximize the chances of passing on shared genes. Also, the aggregation of sperm in the monogamous P. polionotus may persist because it still offers benefits, such as faster travel through a female reproductive tract. Alternatively, sperm aggregation could be an ancestral trait that existed before the species diverged.</p>
 
 
         
