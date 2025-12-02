@@ -84,4 +84,4 @@ for (let triangle = "#";
 console.log(triangle)
 ```
 
-This solution was found through Chapter Two in Eloquent JavaScript by Homer White. 
+This solution was found through Chapter Two in Eloquent JavaScript by Homer White and explinations/help given during class lectures. 
