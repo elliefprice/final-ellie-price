@@ -2,10 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ellie&#39;s Site on My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content in Ellie&#39;s Site on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Article One</title>
+      <link>https://example.org/articles/article-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/articles/article-1/</guid>
+      <description>Another programming article.</description>
+    </item>
+    <item>
+      <title>Article Two</title>
+      <link>https://example.org/articles/articles-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/articles/articles-2/</guid>
+      <description>Another programming article.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>Ellie Price. Senior at Georgetwon College.. Biology Major, Computer Science Minor</description>
+    </item>
   </channel>
 </rss>
