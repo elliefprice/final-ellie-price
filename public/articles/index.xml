@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article Summaries on My New Hugo Site</title>
-    <link>https://example.org/articles/</link>
+    <link>http://localhost:54222/articles/</link>
     <description>Recent content in Article Summaries on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54222/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Article Four</title>
+      <link>http://localhost:54222/articles/article-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54222/articles/article-4/</guid>
+      <description>Article on AI Use</description>
+    </item>
     <item>
       <title>Article One</title>
-      <link>https://example.org/articles/article-1/</link>
+      <link>http://localhost:54222/articles/article-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/article-1/</guid>
-      <description>Article Summary</description>
+      <guid>http://localhost:54222/articles/article-1/</guid>
+      <description>Article Summary Paper</description>
     </item>
     <item>
       <title>Article Three</title>
-      <link>https://example.org/articles/article-2/</link>
+      <link>http://localhost:54222/articles/article-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/article-2/</guid>
-      <description>Article On Enhancement</description>
+      <guid>http://localhost:54222/articles/article-3/</guid>
+      <description>Article On Enhancemnet</description>
     </item>
     <item>
       <title>Article Two</title>
-      <link>https://example.org/articles/article-4/</link>
+      <link>http://localhost:54222/articles/article-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/article-4/</guid>
-      <description>Another programming article.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://example.org/articles/article-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/article-3/</guid>
-      <description></description>
+      <guid>http://localhost:54222/articles/article-2/</guid>
+      <description>Article Summary Paper</description>
     </item>
   </channel>
 </rss>

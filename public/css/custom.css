@@ -1,0 +1,52 @@
+/* Global dark mode override */
+body.dark-mode, html.dark-mode {
+    background-color: #111 !important;
+    color: #f1f1f1 !important;
+}
+
+/* Force all text to lighten */
+.dark-mode * {
+    color: #e6e6e6 !important;
+    border-color: #555 !important;
+}
+
+/* Override theme backgrounds */
+.dark-mode,
+.dark-mode .container,
+.dark-mode .post,
+.dark-mode .content,
+.dark-mode .post-content,
+.dark-mode .article,
+.dark-mode .page,
+.dark-mode .entry,
+.dark-mode .wrapper,
+.dark-mode .page-content,
+.dark-mode #content {
+    background-color: #111 !important;
+}
+
+/* Navbar */
+.dark-mode nav,
+.dark-mode .navbar,
+.dark-mode header {
+    background-color: #1a1a1a !important;
+    color: #eee !important;
+}
+
+/* Links */
+.dark-mode a {
+    color: #80bfff !important;
+}
+
+/* Footer */
+.dark-mode footer {
+    background-color: #1a1a1a !important;
+    color: #ddd !important;
+}
+
+/* Code blocks */
+.dark-mode pre,
+.dark-mode code {
+    background-color: #333 !important;
+    color: #fff !important;
+}

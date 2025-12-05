@@ -2,22 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/articles/article-1/</loc>
+    <loc>http://localhost:54222/articles/article-4/</loc>
   </url><url>
-    <loc>https://example.org/articles/article-2/</loc>
+    <loc>http://localhost:54222/articles/article-1/</loc>
   </url><url>
-    <loc>https://example.org/articles/article-4/</loc>
+    <loc>http://localhost:54222/articles/article-3/</loc>
   </url><url>
-    <loc>https://example.org/articles/article-3/</loc>
+    <loc>http://localhost:54222/articles/article-2/</loc>
   </url><url>
-    <loc>https://example.org/about/</loc>
+    <loc>http://localhost:54222/blog/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/articles/</loc>
+    <loc>http://localhost:54222/tags/computer-science/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:54222/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:54222/tags/homework/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:54222/tags/javascript/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/tags/substantive/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/tags/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/blog/blog2/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/tags/filler/</loc>
+    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/blog/filler1/</loc>
+    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/tags/lorem-ipsum/</loc>
+    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/blog/filler2/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/tags/nonsense/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/blog/filler3/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/blog/blog1/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54222/about/</loc>
+  </url><url>
+    <loc>http://localhost:54222/articles/</loc>
+  </url><url>
+    <loc>http://localhost:54222/categories/</loc>
   </url>
 </urlset>

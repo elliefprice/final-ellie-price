@@ -24,7 +24,13 @@ theme = "beautifulhugo"
   url = "/articles/"
   weight = 3 
 
-    
+
+[[menu.main]]
+  identifier = "blog"
+  name = "My Blogs!"
+  url = "/blog/"
+  weight = 40
+
     
 [markup]
   [markup.goldmark]

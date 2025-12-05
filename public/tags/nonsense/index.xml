@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nonsense on My New Hugo Site</title>
+    <link>http://localhost:54222/tags/nonsense/</link>
+    <description>Recent content in Nonsense on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:54222/tags/nonsense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filler Blog Two</title>
+      <link>http://localhost:54222/blog/filler2/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54222/blog/filler2/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Filler from Lorem ipsum&lt;/p&gt;&#xA;&lt;h2 id=&#34;filler&#34;&gt;Filler&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis risus est, ut volutpat quam tincidunt cursus. Integer pharetra arcu accumsan enim lacinia euismod. Nunc non nunc in nulla consectetur cursus et non dui. Vivamus ac mauris quis felis sagittis feugiat at egestas est. Integer cursus, orci non dictum pharetra, purus turpis luctus libero, at iaculis leo quam et velit. Pellentesque turpis augue, lobortis vel egestas molestie, sagittis in lorem. Praesent a risus non nunc tincidunt tempus. Integer nisi leo, tincidunt sed lorem commodo, rhoncus finibus enim. Suspendisse sit amet auctor magna. Ut viverra diam sit amet auctor suscipit. Aliquam turpis justo, ullamcorper ut tincidunt nec, ultricies quis dui. Etiam eget nisi aliquam, condimentum tortor sed, lobortis arcu. Donec bibendum faucibus dui nec rhoncus. Fusce faucibus gravida enim id bibendum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Filler Blog Three</title>
+      <link>http://localhost:54222/blog/filler3/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54222/blog/filler3/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Filler from Lorem ipsum&lt;/p&gt;&#xA;&lt;h2 id=&#34;filler&#34;&gt;Filler&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a ullamcorper orci, non imperdiet est. Pellentesque eget erat nec neque dictum pretium. Nam non felis eros. In hac habitasse platea dictumst. Vivamus aliquet faucibus nulla eget vehicula. Curabitur faucibus non erat vel elementum. Suspendisse urna lacus, pharetra et libero et, pharetra placerat augue. In non diam finibus neque vehicula efficitur non id lectus.&lt;/p&gt;&#xA;&lt;p&gt;Mauris volutpat lacinia tincidunt. Fusce a odio erat. Etiam a nisl lorem. Vestibulum molestie sapien et ex dignissim molestie. Cras fringilla consequat ex, sit amet iaculis dolor mollis nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc leo lectus, fermentum et arcu quis, mollis eleifend elit. In lorem sem, placerat a pharetra id, commodo a sem. Pellentesque magna massa, maximus in ultrices sit amet, lobortis nec turpis. Proin at elit quis turpis iaculis tincidunt quis non dolor. Etiam eu sapien in metus posuere ullamcorper id et velit. Aliquam sit amet scelerisque mauris, et iaculis ligula. Cras varius porta convallis. Cras neque lorem, ultrices eget odio in, tempor lobortis urna. Cras placerat sem a nisl tempus porta. Ut in faucibus libero, a bibendum nisl.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

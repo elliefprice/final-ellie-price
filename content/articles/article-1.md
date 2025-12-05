@@ -2,7 +2,7 @@
 title: "Article One"
 description: ""
 omit_header_text: true
-summary: "Article Summary"
+summary: "Article Summary Paper"
 type: page
 weight: 3
 ---
